@@ -1,0 +1,150 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+       width: 100%;
+       height: 100%
+}
+
+#nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 85px;
+    width: 100%;
+    height: 50px;
+    
+    
+}
+#left h1{
+    font-family: 'Oleo Script', cursive;
+    font-size: medium;
+
+}
+#right{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-right: 90px;
+}
+ .sd{
+    color:rgba(243, 209, 14, 0.849);
+}
+#right h2{
+    color: grey;
+    padding-left: 20px;
+    font-size: 15px;
+}
+
+#first{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    
+     width:100%;
+     height:300px;
+     background-color:rgb(247, 247, 247) ;
+     padding-bottom: 180px;
+     padding-top:20px;
+     
+}
+#wi{
+    width: 5%;
+    height: 460px;
+    background-color: white;
+}
+#first #top h1{
+        padding-right: 450px;
+        padding-top:2px;
+        font-size: large;
+        font-weight: bold ;
+        color:black;
+        font-family: 'Open Sans', sans-serif;
+
+}
+#top p{
+    color: rgb(196, 194, 194);
+}
+ #first #bottom img {
+            position: absolute;
+            top: 44%;
+            left: 80%;
+            transform: translate(-50%,-50%);
+            padding-top:50px ;
+            padding-bottom: 20px;
+            width: 350px;
+            
+}
+#li{
+    width: 5%;
+    height: 460px;
+    background-color: white;
+}
+#second{
+    display: flex;
+    padding-left: 35px;
+
+    width:100%;
+    height:300px;
+    
+}
+
+#second  img{
+     
+    width: 250px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+#second p{
+    color: rgb(170, 170, 170);
+    text-shadow: rgb(240, 233, 233);
+    
+}
+
+#last{
+    display: flex;
+    
+    padding-bottom: 20px;
+    padding-top: 30px;
+    
+}
+#one h1{
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-top: 3px;
+    padding-bottom: 9px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400px;
+}
+#one h2{
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    
+}
+#one h3{
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    font-size: medium;
+    color: grey;
+}
+#one h4{
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    font-size: small;
+    color:rgb(160, 155, 155)
+}
+#two{
+    width: 200px;
+    height: 200pxpx;
+}
